@@ -1,8 +1,7 @@
 def swap(x,y):
-	a = x
-	b = y
-	x = b
-	y = a
+	temp = x
+	x = y
+	y = temp
 	return x, y
 
 def gnome(array):
